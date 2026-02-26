@@ -15,5 +15,8 @@ def root():
     return {"message": "X-Ception backend is running."}
 
 # import and include routers here
-# from .routes import voice
-# app.include_router(voice.router)
+from .routes import voice, auth, conversation
+
+app.include_router(voice.router)
+app.include_router(auth.router)
+app.include_router(conversation.router)

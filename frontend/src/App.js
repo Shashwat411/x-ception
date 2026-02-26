@@ -1,11 +1,31 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Login from './components/Login';
+import Register from './components/Register';
+import Dashboard from './components/Dashboard';
+import Chat from './components/Chat';
 
 function App() {
+  const token = localStorage.getItem('token');
+
   return (
-    <div className="App">
-      <h1>X-Ception Frontend</h1>
-      <p>This interface will allow real-time voice chat, display call status, and configuration.</p>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={token ? <Navigate to="/dashboard" /> : <Navigate to="/login" />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route
+            path="/dashboard"
+            element={token ? <Dashboard /> : <Navigate to="/login" />}
+          />
+          <Route
+            path="/chat"
+            element={token ? <Chat /> : <Navigate to="/login" />}
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
