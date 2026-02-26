@@ -60,7 +60,21 @@ pip install -r requirements.txt
 - configure Firebase credentials and call `firebase_service.initialize(...)`.
 - run with `uvicorn app.main:app --reload --port 8000`
 
+### API endpoints (demo)
+
+- `POST /auth/register` – body `{email,password}`
+- `POST /auth/login` – returns `{token}` for use in frontend
+- `GET /conversation` – list of messages
+- `POST /conversation` – send `{text}` and receive reply
+
+These are simple in-memory stubs for prototyping; replace with real storage & JWT auth later.
+
 ### Frontend
+
+React-based UI with authentication forms and a chat interface. The layout uses
+card-style containers on a soothing gradient background, with colored
+message bubbles; you can easily swap in a UI library (Tailwind, MUI, etc.) for
+fancier visuals.
 
 ```bash
 cd frontend
