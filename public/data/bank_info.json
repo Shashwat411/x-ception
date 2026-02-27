@@ -1,0 +1,34 @@
+{
+  "bank": {
+    "name": "NovaBharat Bank Ltd.",
+    "established": "2024-07-01",
+    "branches": 120,
+    "rd_info": {
+      "description_en": "Recurring Deposit (RD) is a term deposit with monthly contributions. It helps build savings with fixed interest.",
+      "function": "Users deposit a fixed amount every month for a fixed tenure. Interest rates vary by tenure and are compounded quarterly."
+    },
+    "products": {
+      "savings": "Savings Account with zero-balance option and debit card.",
+      "fixed_deposit": "Fixed Deposits with competitive rates and auto-renewal.",
+      "home_loan": "Home loans with flexible tenure up to 30 years.",
+      "gold_loan": "Gold loans against pledged gold at attractive interest rates.",
+      "personal_loan": "Unsecured personal loans with quick disbursal.",
+      "rd": "Recurring Deposit to build disciplined savings.",
+      "investments": "Mutual funds, FD, RD and portfolio management services."
+    },
+    "contact": {
+      "customer_care": "+91 1800-123-456",
+      "email": "support@novabharatbank.example"
+    }
+  },
+  "faqs": {
+    "en": {
+      "what_is_rd": "RD is a Recurring Deposit where you save a fixed amount monthly and earn interest.",
+      "how_to_apply_loan": "Apply via the web portal or visit any branch. Provide KYC and income documents."
+    },
+    "bn": {
+      "what_is_rd": "আরডি একটি রিকারিং ডিপোজিট যেখানে আপনি প্রতি মাসে একটি নির্দিষ্ট পরিমাণ জমা দিন এবং সুদ অর্জন করেন।",
+      "how_to_apply_loan": "ওয়েব পোর্টাল বা শাখায় আসার মাধ্যমে আবেদন করুন। KYC এবং আয়ের নথি প্রয়োজন।"
+    }
+  }
+}

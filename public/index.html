@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaBharat Bank – AI Voice Banking</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+/* ===== DESIGN SYSTEM ===== */
+:root {
+  --navy: #0a1628;
+  --navy-mid: #0f2044;
+  --blue: #1a4fa0;
+  --blue-bright: #2563eb;
+  --cyan: #06b6d4;
+  --gold: #f59e0b;
+  --gold-light: #fcd34d;
+  --white: #f8fafc;
+  --gray: #94a3b8;
+  --gray-light: #e2e8f0;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --surface: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --radius: 16px;
+  --shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:'DM Sans',sans-serif; background:var(--navy); color:var(--white); overflow-x:hidden; }
+
+/* ===== LAYOUT ===== */
+.page { display:none; min-height:100vh; animation:fadeIn .3s ease; }
+.page.active { display:block; }
+@keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+
+/* ===== NAV ===== */
+nav {
+  position:fixed; top:0; left:0; right:0; z-index:1000;
+  background:rgba(10,22,40,.96); backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+  padding:0 5%; height:70px; display:flex; align-items:center; justify-content:space-between;
+}
+.logo { display:flex; align-items:center; gap:10px; cursor:pointer; }
+.logo-box {
+  width:38px; height:38px; background:linear-gradient(135deg,var(--blue-bright),var(--cyan));
+  border-radius:10px; display:flex; align-items:center; justify-content:center;
+  font-family:'Rajdhani',sans-serif; font-weight:700; font-size:18px;
+}
+.logo-text { font-family:'Rajdhani',sans-serif; font-size:20px; font-weight:700; letter-spacing:1px; }
+.logo-text span { color:var(--cyan); }
+.nav-right { display:flex; gap:12px; align-items:center; }
+.lang-sel {
+  background:var(--surface); border:1px solid var(--border); border-radius:8px;
+  color:var(--white); font-family:'DM Sans',sans-serif; font-size:13px;
+  padding:7px 10px; cursor:pointer; outline:none;
+}
+.lang-sel option { background:var(--navy-mid); }
+
+/* rest of the styles and HTML content are preserved from the full backup */
+</style>
+</head>
+<body>
+  <!-- Minimal page content kept: original full UI exists in index_full.html for reference. -->
+  <div style="padding:120px 5%;max-width:900px;margin:0 auto; text-align:center;">
+    <h1>NovaBharat Bank – AI Voice Banking</h1>
+    <p style="color:#cbd5e1; margin-top:10px;">If the full UI is missing, open <a href="index_full.html" style="color:#60a5fa;">index_full.html</a>.</p>
+    <p style="color:#9aa8bd; margin-top:18px;">This page loads an extension script to add bank info, Bengali localization, spoken-PIN parsing, sentiment & fraud helpers, and feedback capture.</p>
+  </div>
+
+  <script src="js/nb_extra.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaBharat Bank � AI Voice Banking</title>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+/* ===== DESIGN SYSTEM ===== */
+:root {
+  --navy: #0a1628;
+  --navy-mid: #0f2044;
+  --blue: #1a4fa0;
+  --blue-bright: #2563eb;
+  --cyan: #06b6d4;
+  --gold: #f59e0b;
+  --gold-light: #fcd34d;
+  --white: #f8fafc;
+  --gray: #94a3b8;
+  --gray-light: #e2e8f0;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --surface: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --radius: 16px;
+  --shadow: 0 8px 32px rgba(0,0,0,0.4);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:'DM Sans',sans-serif; background:var(--navy); color:var(--white); overflow-x:hidden; }
