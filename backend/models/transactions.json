@@ -1,0 +1,52 @@
+[
+  {
+    "txnId": "TXN001",
+    "fromAccNo": "NB10001",
+    "toAccNo": "NB10002",
+    "amount": 5000,
+    "mode": "NEFT",
+    "date": "2026-02-25T14:30:00Z",
+    "status": "Success",
+    "remarks": "Salary transfer"
+  },
+  {
+    "txnId": "TXN002",
+    "fromAccNo": "NB10003",
+    "toAccNo": "NB10001",
+    "amount": 12000,
+    "mode": "IMPS",
+    "date": "2026-02-24T10:15:00Z",
+    "status": "Success",
+    "remarks": "Project payment"
+  },
+  {
+    "txnId": "TXN003",
+    "fromAccNo": "NB10005",
+    "toAccNo": "NB10004",
+    "amount": 15000,
+    "mode": "UPI",
+    "date": "2026-02-23T16:45:00Z",
+    "status": "Success",
+    "remarks": "Business transaction"
+  },
+  {
+    "txnId": "TXN004",
+    "fromAccNo": "NB10007",
+    "toAccNo": "NB10006",
+    "amount": 8500,
+    "mode": "NEFT",
+    "date": "2026-02-22T11:20:00Z",
+    "status": "Success",
+    "remarks": "Rent payment"
+  },
+  {
+    "txnId": "TXN005",
+    "fromAccNo": "NB10009",
+    "toAccNo": "NB10008",
+    "amount": 25000,
+    "mode": "IMPS",
+    "date": "2026-02-21T13:10:00Z",
+    "status": "Success",
+    "remarks": "Investment"
+  }
+]
